@@ -37,3 +37,4 @@ entrada.question("Digite um numero: ",
         entrada.close();
     }
 )
+
