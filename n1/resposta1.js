@@ -1,5 +1,5 @@
 const readline = require('readline');
-const rl = readline.createInterface({
+const entrada = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
@@ -16,11 +16,11 @@ function palindromoounao(palavra){
     }
 }
 
-rl.question("Digite uma palavra: ", 
+entrada.question("Digite uma palavra: ", 
     function(palavra){
     palindromoounao(palavra);
 
-    rl.close();
+    entrada.close();
     }
 );  
 
