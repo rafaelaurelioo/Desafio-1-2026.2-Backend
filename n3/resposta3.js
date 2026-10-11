@@ -30,3 +30,25 @@ entrada.question("Qual o a mensagem/palavra?",
 
         }
     )
+    //no progama pede para o deslocamento ser 13, o que teve algumas alterações mas irei colocar o que coloquei no freecode camp abaixo: 
+/*function rot13(Texto){
+        let resultado ="";
+        for(let i = 0; i<Texto.length; i++){
+          
+            let codigo = Texto.charCodeAt(i);//char code pega letras do alfabeto e começa a partir de 65 por isso tera logicas relacionado a isso
+            if(codigo>90 || codigo<65){
+              resultado += Texto[i];
+              continue;
+            }
+            let posicao = codigo - 65;
+            let NovaPosicao = (posicao + 13) % 26;
+            let novoCodigo = NovaPosicao + 65;
+            let novaLetra = String.fromCharCode(novoCodigo);//pega o novo codigo e transforma em letra
+            resultado += novaLetra;
+            //basicamente percore por cada letra da palavra/mensagem e transforma no deslocamento
+        }
+        return resultado;
+    }
+
+
+rot13("SERR PBQR PNZC");*/
